@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import MemeList from "./components/MemeList.vue";
 import RandomMeme from "./components/RandomMeme.vue";
 
+// Definiowanie œcie¿ek dla routera
 const routes = [
     {
         path: "/",

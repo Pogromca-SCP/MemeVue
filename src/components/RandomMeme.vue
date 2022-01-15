@@ -1,5 +1,6 @@
 <template>
-    <Meme v-bind:meme="meme" />
+    <!-- v-if sprawia, ¿e element pojawi siê tylko jeœli warunek jest spe³niony -->
+    <Meme v-if="meme" v-bind:meme="meme" />
 </template>
 
 <script>
@@ -12,10 +13,7 @@
         },
         data() {
             return {
-                meme: {
-                    title: "Nope.avi",
-                    link: ""
-                }
+                meme: null
             };
         },
         mounted() {

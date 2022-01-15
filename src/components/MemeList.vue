@@ -1,5 +1,6 @@
 <template>
     <ul class="meme-list">
+        <!-- v-for pozwala na u¿ycie pêtli do generowania elementów -->
         <li v-for="meme in memes" :key="meme">
             <Meme v-bind:meme="meme" />
         </li>
