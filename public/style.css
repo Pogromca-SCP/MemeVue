@@ -1,0 +1,44 @@
+:root
+{
+    --back: #cccccc;
+    --title: #77bb77;
+    --link: #94dd00;
+    --hover: #b6ff00;
+}
+
+body
+{
+    background-color: var(--back);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.nav-link
+{
+    color: black;
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    background-color: var(--link);
+    border: 2px solid black;
+}
+
+.nav-link:hover
+{
+    background-color: var(--hover);
+}
+
+.meme
+{
+    padding: 0.5rem;
+}
+
+.meme-header
+{
+    color: var(--title);
+}
+
+.meme-list
+{
+    list-style: none;
+}
